@@ -57,28 +57,28 @@ function Culture() {
 }
 
 const team = [
+  // {
+  //   title: '',
+  //   people: [
+  //     {
+  //       name: 'Leslie Alexander',
+  //       role: 'Co-Founder / CEO',
+  //       image: { src: imageLeslieAlexander },
+  //     },
+  //     {
+  //       name: 'Michael Foster',
+  //       role: 'Co-Founder / CTO',
+  //       image: { src: imageMichaelFoster },
+  //     },
+  //     {
+  //       name: 'Dries Vincent',
+  //       role: 'Partner & Business Relations',
+  //       image: { src: imageDriesVincent },
+  //     },
+  //   ],
+  // },
   {
-    title: 'Leadership',
-    people: [
-      {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
-        image: { src: imageLeslieAlexander },
-      },
-      {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        image: { src: imageMichaelFoster },
-      },
-      {
-        name: 'Dries Vincent',
-        role: 'Partner & Business Relations',
-        image: { src: imageDriesVincent },
-      },
-    ],
-  },
-  {
-    title: 'Team',
+    title: 'Contributor',
     people: [
       {
         name: 'Chelsea Hagon',

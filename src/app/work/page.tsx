@@ -30,10 +30,10 @@ function CaseStudies({
     <Container className="mt-40">
       <FadeIn>
         <h2 className="font-display text-2xl font-semibold text-neutral-950">
-          Case studies
+          What we build
         </h2>
       </FadeIn>
-      <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">
+      <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-12">
         {caseStudies.map((caseStudy) => (
           <FadeIn key={caseStudy.client}>
             <article>
@@ -70,22 +70,22 @@ function CaseStudies({
                       <p key={paragraph}>{paragraph}</p>
                     ))}
                   </div>
-                  <div className="mt-8 flex">
+                  {/* <div className="mt-8 flex">
                     <Button
                       href={caseStudy.href}
                       aria-label={`Read case study: ${caseStudy.client}`}
                     >
                       Read case study
                     </Button>
-                  </div>
-                  {caseStudy.testimonial && (
+                  </div> */}
+                  {/* {caseStudy.testimonial && (
                     <Blockquote
                       author={caseStudy.testimonial.author}
                       className="mt-12"
                     >
                       {caseStudy.testimonial.content}
                     </Blockquote>
-                  )}
+                  )} */}
                 </div>
               </Border>
             </article>

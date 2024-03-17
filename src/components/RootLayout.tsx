@@ -81,10 +81,9 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" invert={invert}>
-            Conflux Network
-          </Button>
-          <button
+          {/* <Button href="/contact" invert={invert}> */}
+          <Button invert={invert}>Conflux Network</Button>
+          {/* <button
             ref={toggleRef}
             type="button"
             onClick={onToggle}
@@ -104,7 +103,7 @@ function Header({
                   : 'fill-neutral-950 group-hover:fill-neutral-700',
               )}
             />
-          </button>
+          </button> */}
         </div>
       </div>
     </Container>
@@ -143,13 +142,14 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
+        {/* <NavigationItem href="/work">Our Work</NavigationItem> */}
+        <NavigationItem href="/process">Our Work</NavigationItem>
         <NavigationItem href="/about">About Us</NavigationItem>
       </NavigationRow>
-      <NavigationRow>
-        <NavigationItem href="/process">Our Process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
-      </NavigationRow>
+      {/* <NavigationRow> */}
+      {/* <NavigationItem href="/process">Our Process</NavigationItem> */}
+      {/* <NavigationItem href="/blog">Blog</NavigationItem> */}
+      {/* </NavigationRow> */}
     </nav>
   )
 }

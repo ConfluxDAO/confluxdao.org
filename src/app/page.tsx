@@ -18,18 +18,26 @@ import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.sv
 import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
+import wtfLogo from '@/images/logo/wtf-logo.png'
+import opLogo from '@/images/logo/op-logo.svg'
+import dapplearningLogo from '@/images/logo/dapplearning-logo.webp'
+import pkuLogo from '@/images/logo/pku-logo.webp'
+import thubaLogo from '@/images/logo/thuba-logo.webp'
+import upchainLogo from '@/images/logo/learnblockchain-logo.webp'
+import ethFound from '@/images/logo/ethereum-foundation-logo.svg'
+import starknet from '@/images/logo/starknet-logo.svg'
 import imageLaptop from '@/images/laptop.png'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
-  ['Phobia', logoPhobiaLight],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['WTFSolidity', wtfLogo],
+  ['Dapping Learning', dapplearningLogo],
+  ['Conflux', opLogo],
+  ['PKUBlockchain', pkuLogo],
+  ['thubaLogo', thubaLogo],
+  ['upChainLogo', upchainLogo],
+  ['Bright Path', ethFound],
+  ['North Adventures', starknet],
 ]
 
 function Clients() {
@@ -38,7 +46,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We’ve worked with hundreds of amazing people
+            We're working with hundreds of amazing people
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -50,7 +58,12 @@ function Clients() {
             {clients.map(([client, logo]) => (
               <li key={client}>
                 <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
+                  <Image
+                    src={logo}
+                    alt={client}
+                    unoptimized
+                    style={{ maxWidth: '98px' }}
+                  />
                 </FadeIn>
               </li>
             ))}
@@ -69,13 +82,12 @@ function CaseStudies({
   return (
     <>
       <SectionIntro
-        title="Harnessing technology for a brighter future"
+        title="Harnessing Blockchain for a brighter future"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe technology is the answer to the world’s greatest
-          challenges. It’s also the cause, so we find ourselves in bit of a
-          catch 22 situation.
+          We believe Web3 is the answer to the world’s greatest challenges. It’s
+          also the cause, so we find ourselves in bit of a catch 22 situation.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -84,15 +96,16 @@ function CaseStudies({
             <FadeIn key={caseStudy.href} className="flex">
               <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
                 <h3>
-                  <Link href={caseStudy.href}>
-                    <span className="absolute inset-0 rounded-3xl" />
-                    <Image
-                      src={caseStudy.logo}
-                      alt={caseStudy.client}
-                      className="h-16 w-16"
-                      unoptimized
-                    />
-                  </Link>
+                  {/* <Link href={caseStudy.href}> */}
+                  {/* <Link href={caseStudy.href}> */}
+                  <span className="absolute inset-0 rounded-3xl" />
+                  <Image
+                    src={caseStudy.logo}
+                    alt={caseStudy.client}
+                    className="h-16 w-16"
+                    unoptimized
+                  />
+                  {/* </Link> */}
                 </h3>
                 <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
                   <time
@@ -125,8 +138,8 @@ function Services() {
   return (
     <>
       <SectionIntro
-        eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        // eyebrow="Services"
+        title="Enables creators, communities, developers and markets to connect across borders"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
@@ -146,24 +159,25 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
+            <ListItem title="Build Infrastructure">
               We specialise in crafting beautiful, high quality marketing pages.
               The rest of the website will be a shell that uses lorem ipsum
               everywhere.
             </ListItem>
-            <ListItem title="Application development">
+            <ListItem title="Connect Community ">
               We have a team of skilled developers who are experts in the latest
               app frameworks, like Angular 1 and Google Web Toolkit.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Developer Friendly">
+              better developer experience We are at the forefront of modern
+              e-commerce development. Which mainly means adding your logo to the
+              Shopify store template we’ve used for the past six years.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Asian, African and Latin American markets">
+              Asian, African and Latin American markets At Studio we understand
+              the importance of having a robust and customised CMS. That’s why
+              we run all of our client projects out of a single, enormous Joomla
+              instance.
             </ListItem>
           </List>
         </div>
