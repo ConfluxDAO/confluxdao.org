@@ -33,8 +33,15 @@ export function Testimonial({
                 {children}
               </p>
             </blockquote>
-            <figcaption className="mt-10">
-              <Image src={client.logo} alt={client.name} unoptimized />
+            <figcaption className="mt-10 inline-flex items-center gap-4">
+              <Image
+                src={client.logo}
+                alt={client.name}
+                unoptimized
+                width={60}
+                className="rounded-full"
+              />
+              <span className='text-2xl font-medium'>Vitalik Buterin</span>
             </figcaption>
           </figure>
         </FadeIn>

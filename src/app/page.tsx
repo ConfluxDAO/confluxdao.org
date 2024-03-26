@@ -19,6 +19,7 @@ import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import wtfLogo from '@/images/logo/wtf-logo.png'
+import vitalikLogo from '@/images/logo/vitalik.jpg'
 import opLogo from '@/images/logo/op-logo.svg'
 import dapplearningLogo from '@/images/logo/dapplearning-logo.webp'
 import pkuLogo from '@/images/logo/pku-logo.webp'
@@ -214,11 +215,14 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaDark }}
+        client={{ name: 'Phobia', logo: vitalikLogo }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
+        The community is the most important part. Code determines
+        what a platform can do now, but the community decides what a platform
+        can do in the future. Moreover, whether it's for blockchain or any
+        software ecosystem, enabling people to participate and feel welcome is
+        crucial, and this isn't something that can be achieved through code
+        alone.
       </Testimonial>
 
       <Services />
