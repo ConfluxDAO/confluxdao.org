@@ -7,28 +7,29 @@ import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
   {
-    title: 'Work',
+    title: 'Links',
     links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
-      {
-        title: (
-          <>
-            See all <span aria-hidden="true">&rarr;</span>
-          </>
-        ),
-        href: '/work',
-      },
+      { title: 'Conflux Network', href: 'https://confluxnetwork.org' },
+      { title: 'WTF Academy', href: 'https://wtf.academy' },
+      { title: 'LXDAO', href: 'https://lxdao.io/' },
+      { title: 'Dapp Learning', href: 'https://dapplearning.org/' },
+      // {
+      //   title: (
+      //     <>
+      //       See all <span aria-hidden="true">&rarr;</span>
+      //     </>
+      //   ),
+      //   href: '/work',
+      // },
     ],
   },
   {
-    title: 'Company',
+    title: 'Ecosystem',
     links: [
-      { title: 'About', href: '/about' },
-      { title: 'Process', href: '/process' },
-      { title: 'Blog', href: '/blog' },
-      { title: 'Contact us', href: '/contact' },
+      { title: 'FansCoin', href: 'https://fanscoin.org' },
+      { title: 'Conflux Hub', href: 'https://confluxhub.io' },
+      { title: 'Conflux Docs', href: 'https://confluxdocs.com' },
+      { title: 'Conflux Scan', href: 'https://confluxscan.io' },
     ],
   },
   {
@@ -100,7 +101,7 @@ function NewsletterForm() {
         <button
           type="submit"
           aria-label="Submit"
-          className="gap-2 flex  h-8 w-full items-center justify-center rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800"
+          className="flex h-8  w-full items-center justify-center gap-2 rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800"
         >
           Subscribe
           <ArrowIcon className="w-4" />
