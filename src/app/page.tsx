@@ -161,13 +161,14 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Build Infrastructure">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+              We are committed to building high-quality Conflux infrastructure,
+              aiming to enhance user interactions on the Conflux platform and
+              significantly improve the efficiency and experience for
+              developers.
             </ListItem>
             <ListItem title="Connect Community ">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+              We are harnessing the strength of Conflux community, every FC/CFX
+              holder is an integral part of us.
             </ListItem>
             <ListItem title="Developer Friendly">
               better developer experience We are at the forefront of modern
@@ -217,12 +218,11 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: vitalikLogo }}
       >
-        The community is the most important part. Code determines
-        what a platform can do now, but the community decides what a platform
-        can do in the future. Moreover, whether it's for blockchain or any
-        software ecosystem, enabling people to participate and feel welcome is
-        crucial, and this isn't something that can be achieved through code
-        alone.
+        The community is the most important part. Code determines what a
+        platform can do now, but the community decides what a platform can do in
+        the future. Moreover, whether it's for blockchain or any software
+        ecosystem, enabling people to participate and feel welcome is crucial,
+        and this isn't something that can be achieved through code alone.
       </Testimonial>
 
       <Services />
