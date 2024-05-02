@@ -170,6 +170,7 @@ function Services() {
               We are harnessing the strength of Conflux community, every FC/CFX
               holder is an integral part of us.
             </ListItem>
+            {/* TODO: Update the following two Item */}
             <ListItem title="Developer Friendly">
               better developer experience We are at the forefront of modern
               e-commerce development. Which mainly means adding your logo to the
