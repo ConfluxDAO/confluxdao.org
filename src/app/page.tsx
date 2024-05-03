@@ -173,8 +173,7 @@ function Services() {
             {/* TODO: Update the following two Item */}
             <ListItem title="Developer Friendly">
               better developer experience We are at the forefront of modern
-              e-commerce development. Which mainly means adding your logo to the
-              Shopify store template we’ve used for the past six years.
+              e-commerce development.
             </ListItem>
             <ListItem title="Asian, African and Latin American markets">
               Asian, African and Latin American markets At Studio we understand
