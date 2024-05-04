@@ -177,9 +177,7 @@ function Services() {
             </ListItem>
             <ListItem title="Asian, African and Latin American markets">
               Asian, African and Latin American markets At Studio we understand
-              the importance of having a robust and customised CMS. That’s why
-              we run all of our client projects out of a single, enormous Joomla
-              instance.
+              the importance of having a robust and customised CMS.
             </ListItem>
           </List>
         </div>
