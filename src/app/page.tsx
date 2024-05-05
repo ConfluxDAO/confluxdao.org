@@ -177,7 +177,7 @@ function Services() {
             </ListItem>
             <ListItem title="Asian, African and Latin American markets">
               Asian, African and Latin American markets At Studio we understand
-              the importance of having a robust and customised CMS.
+              the importance of having a xxx
             </ListItem>
           </List>
         </div>
