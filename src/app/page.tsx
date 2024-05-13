@@ -28,17 +28,21 @@ import upchainLogo from '@/images/logo/learnblockchain-logo.webp'
 import ethFound from '@/images/logo/ethereum-foundation-logo.svg'
 import starknet from '@/images/logo/starknet-logo.svg'
 import imageLaptop from '@/images/laptop.png'
+import bitcoinLogo from '@/images/logo/bitcoin.jpg'
+import ethereumLogo from '@/images/logo/ethereum.png'
+import confluxLogo from '@/images/logo/conflux-logo.png'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
+  ['Bitcoin', bitcoinLogo],
+  ['Ethereum', ethereumLogo],
+  ['confluxLogo', confluxLogo],
+  ['Optimism', opLogo],
   ['WTFSolidity', wtfLogo],
-  ['Dapping Learning', dapplearningLogo],
-  ['Conflux', opLogo],
-  ['PKUBlockchain', pkuLogo],
+  // ['Dapping Learning', dapplearningLogo],
   ['thubaLogo', thubaLogo],
+  ['PKUBlockchain', pkuLogo],
   ['upChainLogo', upchainLogo],
-  ['Bright Path', ethFound],
-  ['North Adventures', starknet],
 ]
 
 function Clients() {
@@ -47,7 +51,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We're working with hundreds of amazing people
+            We're working with lots of amazing community
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -87,8 +91,7 @@ function CaseStudies({
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe Web3 is the answer to the world’s greatest challenges. It’s
-          also the cause, so we find ourselves in bit of a catch 22 situation.
+          We believe Web3 is the one of the answers to the world’s greatest challenges. 
         </p>
       </SectionIntro>
       <Container className="mt-16">
