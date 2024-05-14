@@ -51,7 +51,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We're working with lots of amazing community
+            We're working with people from lots of amazing community
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -91,7 +91,8 @@ function CaseStudies({
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe Web3 is the one of the answers to the world’s greatest challenges. 
+          We believe Web3 is one of the answers to the world’s greatest
+          challenges. so we want to welcome 1 billion users into Web3.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -111,7 +112,7 @@ function CaseStudies({
                   />
                   {/* </Link> */}
                 </h3>
-                <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
+                {/* <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
                   <time
                     dateTime={caseStudy.date.split('-')[0]}
                     className="font-semibold"
@@ -122,7 +123,7 @@ function CaseStudies({
                     /
                   </span>
                   <span>Case study</span>
-                </p>
+                </p> */}
                 <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
                   {caseStudy.title}
                 </p>
