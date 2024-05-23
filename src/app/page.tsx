@@ -176,12 +176,10 @@ function Services() {
             </ListItem>
             {/* TODO: Update the following two Item */}
             <ListItem title="Developer Friendly">
-              better developer experience We are at the forefront of modern
-              e-commerce development.
+              better developer experience. Every developer is our friend, and we are also gathering community developers to help more developers
             </ListItem>
             <ListItem title="Asian, African and Latin American markets">
-              Asian, African and Latin American markets At Studio we understand
-              the importance of having a xxx
+            We are focusing on web3 development in these regions and helping more people in these regions to access web3.
             </ListItem>
           </List>
         </div>
