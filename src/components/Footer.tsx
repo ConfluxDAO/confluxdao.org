@@ -103,7 +103,7 @@ function NewsletterForm() {
           aria-label="Submit"
           className="flex h-8  w-full items-center justify-center gap-2 rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800"
         >
-          Subscribe
+          Follow
           <ArrowIcon className="w-4" />
         </button>
         {/* <div className="absolute inset-y-1 right-1 flex justify-end">
