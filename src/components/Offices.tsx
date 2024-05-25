@@ -33,12 +33,12 @@ export function Offices({
     <ul role="list" {...props}>
       <li>
         <Office name="Decentralized" invert={invert}>
-          Singapore / Paris / London / <br /> Chiangmai / HongKong
+          Singapore / London / <br /> Chiangmai / HongKong 
         </Office>
       </li>
       <li>
         <Office name="From Dark Forest" invert={invert}>
-          Ethereum / Conflux / Scroll / Optimism / Arbitrum
+          Ethereum / Conflux / Scroll / Optimism 
           <br />
         </Office>
       </li>
