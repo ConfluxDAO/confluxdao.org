@@ -7,7 +7,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: 'ConfluxDAO',
-    default: 'Shaping the Future, Uniting Conflux Believers',
+    default: 'ConfluxDAO',
   },
 }
 
