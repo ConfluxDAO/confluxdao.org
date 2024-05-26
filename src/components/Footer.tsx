@@ -11,8 +11,8 @@ const navigation = [
     links: [
       { title: 'Conflux Network', href: 'https://confluxnetwork.org' },
       { title: 'WTF Academy', href: 'https://wtf.academy' },
-      { title: 'LXDAO', href: 'https://lxdao.io/' },
       { title: 'Dapp Learning', href: 'https://dapplearning.org/' },
+      { title: 'LXDAO', href: 'https://lxdao.io/' },
       // {
       //   title: (
       //     <>
@@ -30,6 +30,7 @@ const navigation = [
       { title: 'Conflux Hub', href: 'https://confluxhub.io' },
       { title: 'Conflux Docs', href: 'https://confluxdocs.com' },
       { title: 'Conflux Scan', href: 'https://confluxscan.io' },
+      { title: 'Fluent Wallet', href: 'https://fluentwallet.com' },
     ],
   },
   {

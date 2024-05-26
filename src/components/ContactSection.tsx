@@ -13,7 +13,7 @@ export function ContactSection() {
               Join Conflux DAO
             </h2>
             <div className="mt-6 flex">
-              <Button href="/contact" invert>
+              <Button href="https://github.com/ConfluxDAO" invert>
                 Join
               </Button>
             </div>
