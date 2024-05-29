@@ -148,8 +148,8 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          We are dedicated to creating innovative solutions that empower
+          creators, developers, and communities to achieve their goals.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -176,10 +176,12 @@ function Services() {
             </ListItem>
             {/* TODO: Update the following two Item */}
             <ListItem title="Developer Friendly">
-              better developer experience. Every developer is our friend, and we are also gathering community developers to help more developers
+              better developer experience. Every developer is our friend, and we
+              are also gathering community developers to help more developers
             </ListItem>
             <ListItem title="Asian, African and Latin American markets">
-            We are focusing on web3 development in these regions and helping more people in these regions to access web3.
+              We are focusing on web3 development in these regions and helping
+              more people in these regions to access web3.
             </ListItem>
           </List>
         </div>
