@@ -100,11 +100,14 @@ function NewsletterForm() {
           className="block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
         /> */}
         <button
-          type="submit"
-          aria-label="Submit"
+          // type="submit"
+          // aria-label="Submit"
+
           className="flex h-8  w-full items-center justify-center gap-2 rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800"
         >
-          Follow
+          <Link href="https://twitter.com/ConfluxDAO" aria-label="ConfluxDAO">
+            Follow
+          </Link>
           <ArrowIcon className="w-4" />
         </button>
         {/* <div className="absolute inset-y-1 right-1 flex justify-end">
